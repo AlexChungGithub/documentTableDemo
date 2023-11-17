@@ -1,0 +1,33 @@
+.leftSidebarContainer[data-state='open']{
+  transform-origin: left;
+  animation: scale-in 300ms forwards;
+}
+
+.leftSidebarContainer[data-state='close']{
+  transform-origin: left;
+  animation: scale-out 300ms forwards;
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scaleX(0);
+    width:0%;
+    width:0px;
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes scale-out {
+  0% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    transform: scaleX(0);
+    width:0%;
+    width:0px;
+  }
+}

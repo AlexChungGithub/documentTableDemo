@@ -1,0 +1,62 @@
+[
+  {
+    "id": "650ba988af07ea65970c0001",
+    "parent": "root",
+    "droppable": true,
+    "text": "Folder01"
+  },
+  {
+    "id": "650ba988af07ea65970c0002",
+    "parent": "root",
+    "droppable": true,
+    "text": "Folder02"
+  },
+  {
+    "id": "650ba988af07ea65970c0003",
+    "parent": "650ba988af07ea65970c0001",
+    "droppable": true,
+    "text": "Folder03"
+  },
+  {
+    "id": "650ba988af07ea65970c0004",
+    "parent": "root",
+    "droppable": true,
+    "text": "Folder04"
+  },
+  {
+    "id": "650ba988af07ea65970c0005",
+    "parent": "650ba988af07ea65970c0003",
+    "droppable": true,
+    "text": "Folder05"
+  },
+  {
+    "id": "650ba988af07ea65970c0006",
+    "parent": "650ba988af07ea65970c0003",
+    "droppable": true,
+    "text": "Folder06"
+  },
+  {
+    "id": "650ba988af07ea65970c0007",
+    "parent": "650ba988af07ea65970c0003",
+    "droppable": true,
+    "text": "Folder07"
+  },
+  {
+    "id": "650ba988af07ea65970c0008",
+    "parent": "650ba988af07ea65970c0007",
+    "droppable": true,
+    "text": "Folder08"
+  },
+  {
+    "id": "650ba988af07ea65970c0009",
+    "parent": "650ba988af07ea65970c0008",
+    "droppable": true,
+    "text": "Folder09"
+  },
+  {
+    "id": "650ba988af07ea65970c0010",
+    "parent": "650ba988af07ea65970c0009",
+    "droppable": true,
+    "text": "Folder10"
+  }
+]

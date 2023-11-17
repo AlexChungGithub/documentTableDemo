@@ -1,0 +1,37 @@
+.rightSidebarContainer{
+  /* background: var(--slate-3); */
+}
+.rightSidebarContainer[data-state='open']{
+  transform-origin: right;
+  animation: scale-in 300ms forwards;
+}
+
+.rightSidebarContainer[data-state='close']{
+  /* visibility: hidden; */
+  transform-origin: right;
+  animation: scale-out 300ms forwards;
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scaleX(0);
+    width:0%;
+    width:0px;
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes scale-out {
+  0% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    transform: scaleX(0);
+    width:0%;
+    width:0px;
+  }
+}

@@ -1,0 +1,14 @@
+default:
+  image: node:16.16.0
+
+deploy:
+  stage: deploy
+  only:
+    - dev-vercel
+  tags:
+    - "kh-lab"
+  script:
+    - npm install --global vercel
+    - vercel pull -y --token=$ALEX_VERCEL_TOKEN
+    - vercel build --prod --token=$ALEX_VERCEL_TOKEN
+    - vercel deploy --prebuilt --prod --token=$ALEX_VERCEL_TOKEN

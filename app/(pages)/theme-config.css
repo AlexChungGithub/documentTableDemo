@@ -1,0 +1,8 @@
+/* theme-config.css */
+.radix-themes {
+  --default-font-size: 18px;
+}
+
+body {
+  margin: 0px;
+}
